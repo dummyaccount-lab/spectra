@@ -1,6 +1,6 @@
 # SPECTRA Dataset: Sensor and  Ground-Truth Toolkit
 
-This dataset is released as part of the [ANR CERBERE Project](https://litis-cerbere.univ-rouen.fr/index.html).
+This dataset is released as part of the [******* Project]().
 
 <p align="center">
   <img src="docs/media/sensor_system.png" alt="SPECTRA system overview" width="860">
@@ -265,10 +265,9 @@ When/if that happens, affected files/folders will be clearly marked (`License: R
 
 # Acknowledgement 
 
-This work was supported by the **CERBERE** project, funded by the **Agence Nationale de la Recherche (ANR)** (ANR-21-
-CE22-0006).
+This work was supported by the **anonymous** project, funded by the **Anonymous** (anonymes).
 
-We gratefully acknowledge the CRIANN high-performance computing center for compute time, storage, and technical assistance.
+We gratefully acknowledge the ***** high-performance computing center for compute time, storage, and technical assistance.
 
 Our thanks also go to all colleagues and students who contributed to the hardware design and integration, calibration and software tooling, and the many hours of field data acquisition that made this dataset possible.
 
