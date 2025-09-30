@@ -58,6 +58,58 @@ The sections below are a step-by-step guide to recreate these ground truths from
 rosbag info </path/toyourrosbag.bag> 
 
 ```
+The **SPECTRA** dataset is organized as follows:
+
+```text
+SPECTRA
+├── dawn_suburb_road_00
+│   ├── events
+│   │   ├── left
+│   │   │   └── events_left.h5
+│   │   └── right
+│   │       └── events_right.h5
+│   │
+│   ├── rgb
+│   │   ├── left
+│   │   │   ├── 000000.png
+│   │   │   ├── 000001.png
+│   │   │   └── ...
+│   │   └── right
+│   │       ├── 000000.png
+│   │       ├── 000001.png
+│   │       └── ...
+│   │
+│   ├── depth_maps
+│   │   └── left
+│   │       ├── 000000.png
+│   │       ├── 000001.png
+│   │       └── ...
+│   │
+│   ├── object_detection
+│   │   ├── 000000.txt
+│   │   ├── 000001.txt
+│   │   └── ...
+│   │
+│   ├── semantic_segmentation
+│   │   ├── 000000.png
+│   │   ├── 000001.png
+│   │   └── ...
+│   │
+│   ├── calibration
+│   │   ├── intrinsics.yaml
+│   │   └── extrinsics.yaml
+│   │
+│   └── imu_lidar
+│       ├── trajectory.txt
+│       └── scans.pcd
+├── dawn_suburb_road_01
+│   └── ...
+├── night_suburb_road_00
+│   └── ...
+├── night_suburb_road_01
+│   └── ...
+└── ...
+```
 
 ## Step 1 — Extract RGB Frames (Left & Right)
 
