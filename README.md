@@ -3,6 +3,12 @@
 This dataset is released as part of the [******* Project]().
 
 <p align="center">
+  <a href="https://youtu.be/G-2pPT0j7Qk">
+    <img src="eyecatcherytb.png" width="700"/>
+  </a>
+</p>
+
+<p align="center">
   <img src="docs/media/sensor_system.png" alt="SPECTRA system overview" width="860">
   <br>
   <em>Figure 1 — The SPECTRA sensor system used for the data aquisition.</em>
